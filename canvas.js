@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
+function tikla2(){
 
-<link rel="stylesheet" href="style.css">
-</head>
+  alert("Tıklandı");
+  console.table(window.degisken);
+}
 
-<body>
-<div id="editor-section">
-     <div class="editable" id="editor">
-
-       Bir şeyler bir şeyler
-
-     </div>
-</div>
-<button name = btn1 id="btn" onclick="tikla()"> Tıklayınız </button>
-<button name = btn2 id="btn2" onclick="tikla2()"> Tıklayınız 2 </button>
-<script type="text/javascript" src="canvas.js"></script>
-</body>
-
-<script>
-/*function tikla(){
+var degisken = [];
+function tikla(){
 
 var zindex = 15;
 var canvas = document.createElement("canvas");
@@ -46,13 +32,11 @@ ctx.moveTo(x, y);
 
 for(let i = 1; i< 50;i++){
 
-        x = Math.random() * window.innerWidth;
+        x = Math.random() * window.innerWidth
         y =  Math.random() * window.innerHeight;
+        window.degisken.push([x,y]);
         ctx.lineTo(x,y);
         ctx.strokeStyle  = "#FF0000";
         ctx.stroke();
     }
 }
-*/
-</script>
-</html>
