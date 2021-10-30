@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<?php
+echo "<title>ESC| Erdoğan</title>";
+?>
 <link rel="stylesheet" href="style.css">
 </head>
 
