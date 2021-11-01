@@ -2,8 +2,6 @@
 
 function fareKaydet(){
 	let sayac = 0;
-	
-
 	document.getElementById("body").addEventListener("click", function(){
 	var x = event.clientX;
 	var y = event.clientY;
